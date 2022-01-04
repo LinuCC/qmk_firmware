@@ -65,8 +65,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_ANIMATIONS
 // #define RGBLIGHT_EFFECT_BREATHING
 #define RGBLED_NUM 6
-#define RGBLIGHT_HUE_STEP 10
-#define RGBLIGHT_SAT_STEP 17
-#define RGBLIGHT_VAL_STEP 17
+#define RGBLIGHT_HUE_STEP 132
+#define RGBLIGHT_SAT_STEP 102
+#define RGBLIGHT_VAL_STEP 255
 #define RGBLIGHT_LIMIT_VAL 50
+
+#define MOUSEKEY_WHEEL_DELAY 75
 #endif
