@@ -23,27 +23,27 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_BTN1,  OSL(3),    OSL(4)
   ),
   [1] = LAYOUT(
-             _______,
+             XXXXXXX,
     _______, KC_F1  , KC_F2,
     KC_F3  , KC_F4  , KC_F5
   ),
   [2] = LAYOUT(
-              _______   ,
-    _______ , KC_F6     , KC_F7    ,
+              XXXXXXX   ,
+    XXXXXXX , KC_F6     , KC_F7    ,
     KC_F8   , KC_F9     , KC_F10
   ),
   [3] = LAYOUT(
-               _______  ,
-    _______  , LCA(KC_1), LCA(KC_2),
-    LCA(KC_3), LCA(KC_4), LCA(KC_5)
+               XXXXXXX  ,
+    XXXXXXX  , LCTL(LGUI(KC_1)), LCTL(LGUI(KC_2)),
+    LCTL(LGUI(KC_3)), LCTL(LGUI(KC_4)), LCTL(LGUI(KC_5))
   ),
   [4] = LAYOUT(
-             _______,
-    OSL(5) , _______,   _______,
-    _______, _______,   _______
+             XXXXXXX,
+    OSL(5) , XXXXXXX,   XXXXXXX,
+    XXXXXXX, XXXXXXX,   XXXXXXX
   ),
   [5] = LAYOUT(
-             _______,
+             XXXXXXX,
     RGB_MOD, KC_UP  ,   RESET,
     KC_LEFT, KC_DOWN, KC_RGHT
   ),
